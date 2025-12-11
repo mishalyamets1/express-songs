@@ -1,0 +1,19 @@
+{
+  "name": "express-songs",
+  "version": "1.0.0",
+  "description": "Список любимых песен — Express API (контрольная работа №5)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

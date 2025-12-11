@@ -1,0 +1,83 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #111827;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+section {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #1f2937;
+  border-radius: 8px;
+}
+
+input {
+  padding: 8px;
+  margin: 4px;
+  border-radius: 4px;
+  border: 1px solid #4b5563;
+  background: #111827;
+  color: #e5e7eb;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 4px;
+  border-radius: 4px;
+  border: none;
+  background: #3b82f6;
+  color: #f9fafb;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+#songsList {
+  list-style: none;
+  padding: 0;
+}
+
+.song-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #374151;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-title {
+  font-weight: 600;
+}
+
+.song-meta {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.song-actions button {
+  background: #ef4444;
+}
+
+.song-actions button:hover {
+  background: #b91c1c;
+}

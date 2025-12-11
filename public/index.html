@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Список любимых песен</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Список любимых песен</h1>
+
+    <section class="form-section">
+      <h2>Добавить песню</h2>
+      <form id="songForm">
+        <input type="text" id="title" placeholder="Название" required />
+        <input type="text" id="artist" placeholder="Исполнитель" required />
+        <input type="text" id="genre" placeholder="Жанр" />
+        <button type="submit">Добавить</button>
+      </form>
+    </section>
+
+    <section class="filter-section">
+      <h2>Фильтр</h2>
+      <input type="text" id="filterArtist" placeholder="Фильтр по исполнителю" />
+      <input type="text" id="filterGenre" placeholder="Фильтр по жанру" />
+      <button id="applyFilter">Применить фильтр</button>
+      <button id="resetFilter">Сбросить</button>
+    </section>
+
+    <section class="list-section">
+      <h2>Песни</h2>
+      <ul id="songsList"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
